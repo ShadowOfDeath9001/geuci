@@ -132,7 +132,7 @@ h4 {
 		margin-left:110px; 
 		float:left;
 		margin-right:160px;
-		margin-bottom:65px;
+		margin-bottom:0px;
 		margin-top:15px;
 		font-family:'BebasNeueRegular';
 	}
@@ -149,12 +149,13 @@ h4 {
 		  padding-bottom: 4px;
 		  padding-left:10px;
 		  padding-right:10px;
-		  max-height:65px;
+		  max-height:75px;
 		  margin-top:50px;
 		  background-color: #9da3ad;
 		  text-align: center;
 		  font-family:'BebasNeueRegular';
 		  font-size:10px;
+		  line-height: 0.7em;
 	}
 	
 	.servicebox{
@@ -184,6 +185,7 @@ h4 {
 		margin-right: 10px;
 		text-align: left; 
 	}
+	
 	
 	#clipart{
 		
