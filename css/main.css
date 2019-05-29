@@ -252,8 +252,16 @@ h4 {
 		
 		margin-left:-70px;
 	}
-
+	
+/*-------- header image ----------*/
+	.header_img{
+		margin-top: -270px; position: relative; right: 1; bottom: 1; left: 1; z-index: -2;
+	}
+	.header_logo{
+		height:250px;  margin-top: -50px; margin-bottom: -75px;
+	}
 /* --------------------------------- */
+
 /* ------- "Nosso Trabalho" -------- */
 
 	.box2{
@@ -286,6 +294,40 @@ h4 {
 		}
 	
 /* --------------------------------- */
+
+/* -------- MAP -------- */
+
+	.col{
+		margin-left:0px; 
+		padding-right:5px; 
+		margin-top: 10px;
+		margin-bottom: 10px;
+		float: left; 
+		position: relative; 
+		border-radius: 4px;
+		text-align:justify;
+		max-width:45%;
+	}
+	.col>p{
+		text-align:justify;
+		margin-left: 10px;
+		margin-right: 5px;
+	}
+	.mapa{
+		margin-left:10px; 
+		margin-right:25px; 
+		padding-right:20px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		float: left; 
+		position: relative; 
+		background: rgba(255,255,255,0.7);
+		border-radius: 4px;
+		text-align:left;
+		max-width:45%;
+	}
+
+/* --------------------- */
 	
 @media screen and (max-width: 1000px) {
 	
@@ -303,6 +345,9 @@ h4 {
 				margin-right:0px;
 	}
 	
+	.col{max-width:100%;}
+
+	
 	#logo{
 		
 		margin-left:0px;
@@ -315,12 +360,16 @@ h4 {
 	.box2 .map{
 		max-width:100%; float:left; padding:5px;
 	}
-
+/* --------------------------------- */
 }
 
 @media screen and (max-width:670px){
 	
 	.container > header{text-align: left;}
+	
+	header>h4{
+		padding-bottom: 25px;
+	}
 
 	#arrow{
 		margin-left:115px;
@@ -345,7 +394,18 @@ h4 {
 }
 	
 @media screen and (max-width:600px){
-
+	
+	.header_img{
+		margin-top: -230px;
+	}
+	.header_logo{
+		height:220px;  
+	}
+	header>h4{
+		margin-bottom:25px;
+		padding-bottom: 25px;
+	}
+	
 	#arrow{
 		margin-left:50px;
 		margin-right:100px;
@@ -383,6 +443,7 @@ h4 {
 				margin-top:15px;
 		}
 		.codrops-top span.right{margin-right:65px;}
+
 		#brazil{
 			
 			margin-left:0px;
