@@ -252,6 +252,40 @@ h4 {
 		
 		margin-left:-70px;
 	}
+
+/* --------------------------------- */
+/* ------- "Nosso Trabalho" -------- */
+
+	.box2{
+		float:left;
+		margin-left:50px; 
+		margin-right:60px;
+		margin-bottom:0px;
+		margin-top:15px;
+		font-family:'BebasNeueRegular';
+		border-style: solid;
+		border-width:1px;
+	}
+	
+	.box2 .row{
+		max-width:45%; float:left; padding:10px;
+	}
+	
+		.box2 .row .title{
+			text-align:center;
+		}
+		.box2 .row .text{
+			text-align:justify; font-size:14px;
+		}
+	
+	.box2 .map{
+		max-width:50%; float:left; padding:10px;
+	}
+		.box2 .map>img{
+			width:100%;
+		}
+	
+/* --------------------------------- */
 	
 @media screen and (max-width: 1000px) {
 	
@@ -272,6 +306,14 @@ h4 {
 	#logo{
 		
 		margin-left:0px;
+	}
+
+/* ------- "Nosso Trabalho" -------- */
+	.box2 .row{
+		max-width:480px; float:left; padding:5px;
+	}
+	.box2 .map{
+		max-width:100%; float:left; padding:5px;
 	}
 
 }
