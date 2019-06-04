@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<meta name="description" content="Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
+	<title>GEUCI</title>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
+	<script> <!-- Google Maps javaScript-->
+		function initialize(){
+			var myLatlng = new google.maps.LatLng(-18.910208, -48.269587);
+			var mapOptions = {zoom: 17,center: myLatlng}
+			var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title: 'GEUCI-UDI - localização'
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<style>
+		#map-canvas{
+			min-width:430px;
+			min-height:290px;
+			max-width: 100%;
+			border-style: dashed;
+			border-width: 1px;
+		}
+		@media screen and (max-width: 1000px) {	
+			#map-canvas{
+				min-width:300px;
+			}
+		}
+	</style>
+</head>
+
+<body background="bgd.jpg" class="page">
+
+
+<div class ="container">
+
+	<div class="langbar"> 
+		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flag_fr.png" alt="fr"/> </a> 
+		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flg_ar.png" alt="es"/></a> 
+		<a href="en/"> <img style="height:22px; margin-top:5px;"  src="images/flag_uk.png" alt="en_gb"/> </a> 
+		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flag_br.png" alt="pt_br"/> </a> 
+	</div>
+
+	<header>
+				<div>
+					<a href="#"><img class="header_logo" src="images/logo.png" alt="Logo"/></a>
+				</div>
+				<h4>Grupo de Extensão Uberlândia no Contexto Internacional</h4>
+	</header>
+	
+	<div class="header_img"style=""> 
+		<img style="width:100%; max-height:275px; z-index: -2;" src="images/header.png"/>
+	</div>
+	
+	<div class="content">
+	
+		<!-- menu bar -->
+		<div class="codrops-top"> 
+		   <!-- <span class="left">
+				   <a href="#home">
+						&laquo; Kallan Sipple 
+					</a>
+				</span> -->
+				
+				<span class="right">
+					<div class="dropdown">
+						<a href="index.html">Quem Somos</a>
+					</div>
+					<div class="dropdown">
+						<a href="#">Eixos de Trabalho</a>
+						<div class="dropdown-content">
+							<a href="presidencia.html">Presidência</a>
+							<a href="academia.html">Academia</a>
+							<a href="governo.html">Governo</a>
+							<a href="sociedade.html">Sociedade</a>
+							<a href="negocios.html">Negócios</a>
+						</div>
+					</div>
+					
+					<a href="contacto.html">Contato</a>
+					<a href="nosso-trabalho.html">Nosso Trabalho</a>
+					<!-- <a href="#" style="font-size:18px;"><strong>Uberlândia</strong></a> -->
+					<!-- <div style="float:right;"> <a href="#"> <img style="height:30px; margin-top:5px;" src="images/trl.png" alt="Logo"/> </a></div> -->
+				</span>
+					
+					<div class="clr"></div>
+		</div>
+		
+		<br/>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		
+		<div class="box1">
+			
+			<div>
+				<p style="text-align:left;"> Estamos presentes nas seguintes plataformas: </p>
+				</br>				
+				<div id="spec_icon"> <p id="email" style="text-align:left;" > <img id="icon_image" src="images/face.png" align="middle" alt="Facebook:"/> &nbsp <a href="http://facebook.com/GeuciUDI">/GeuciUDI</a></p></div>
+			</div>
+			<br/>
+			<div>
+				<div id="icons_div"> <p id="email" style="text-align:left; margin-top:-8px;"> <img id="icon_image" src="images/lin.png" align="middle" alt="LinkedIn:"/> &nbsp <a href="https://pt.linkedin.com/company/geuci">/Geuci</a></p></div>
+			</div>
+			<br/>
+			<div>
+				<div id="icons_div"> <p id="email" style="text-align:left; margin-top:-8px;"> <img id="icon_image" src="images/email.png" align="middle" alt="Email:"/> &nbsp <a href="mailto:geuciudiufu@gmail.com">geuciudiufu@gmail.com</a></p></div>
+			</div>
+			<br/>
+			<div>
+				<div id="icons_div"> <p id="email" style="text-align:left; margin-top:-8px;"> <img id="icon_image" src="images/phone.png" align="middle" alt="Telefone:"/> &nbsp (34) 98407-3047 (Presidência)</p></div>
+			</div>
+			<br/>
+			<div>
+				<div id="icons_div"> <p id="email" style="text-align:left; margin-top:-8px;"> <img id="icon_image" src="images/phone.png" align="middle" alt="Telefone:"/> &nbsp (34) 99137-3193 (Vice-Presidência)</p></div>
+			</div>
+		</div>
+
+		<div class="box1">
+			
+			<h3 id="locale"> Localização </h3> 
+			<div class="col">
+				<p> Mesmo sem uma sede física, o centro gravitacional do GEUCI é a própria Universidade Federal de Uberlândia, local onde desenvolvemos grande parte do nosso trabalho: </p>
+				
+				<p> &nbsp;&nbsp; Av. João Naves de Ávila, 2121 </p>
+				<p> &nbsp;&nbsp; Bloco J </p>
+				<p> &nbsp;&nbsp; Bairro Santa Mônica </p>
+				<p> &nbsp;&nbsp; Uberlândia - MG, Brasil</p>
+			</div>
+
+			<div  class="mapa">
+				<div id="map-canvas"></div>
+			</div>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<p><a href="#"><img id="uk" src="images/top.png" style=" height:32px; float: right;"  alt="back to top" /></a></p>
+
+		</div>
+		
+		
+	
+	</div>
+	
+	<footer class="footer">
+		<p style="text-align:center;">GEUCI,  &nbsp; &copy; 2019</p>
+		<!-- <p>CNPJ: 0001-xxx.xxx.xxx.000</p> -->
+		<p> <a href="https://www.freepik.es/fotos-vectores-gratis/logo">Vector de logo creado por saragnzalez</a> </p> 
+		<p style="text-align:center; margin-bottom:12px;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
+	</footer>
+</div>
+
+</body>
