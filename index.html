@@ -5,37 +5,20 @@
 	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> -->
 	<meta name="description" content="Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
 	<title>GEUCI</title>
-	
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
-	<script> <!-- Google Maps javaScript-->
-		function initialize(){
-			var myLatlng = new google.maps.LatLng(-18.910208, -48.269587);
-			var mapOptions = {zoom: 17,center: myLatlng}
-			var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-			var marker = new google.maps.Marker({
-				position: myLatlng,
-				map: map,
-				title: 'GEUCI-UDI - localização'
-			});
-		}
-		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
-	<style>
-		#map-canvas{
-			min-width:430px;
-			min-height:290px;
-			max-width: 100%;
-			border-style: dashed;
-			border-width: 1px;
-		}
-		@media screen and (max-width: 1000px) {	
-			#map-canvas{
-				min-width:300px;
-			}
+	<link rel="stylesheet" href="css/ideal-image-slider.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/default.css">
+	<style media="screen">
+		#slider {
+			max-width: 900px;
+			max-height: 300px;
+			margin: 50px auto;
 		}
 	</style>
+
 </head>
 
 <body background="bgd.jpg" class="page">
@@ -103,8 +86,15 @@
 		<div class="box1" style="text-align:justify;">
 		
 			<!-- <h3 id="home"> Introdução </h3> -->
-			<p style="text-align:justify;"><img src="images/carezza.jpg" style="max-width:70%; display: block; margin-left: auto; margin-right: auto;" alt="main_pic"/>
-			<br/>
+<!-- 			<p style="text-align:justify;"><img src="images/carezza.jpg" style="max-width:70%; display: block; margin-left: auto; margin-right: auto;" alt="main_pic"/>
+ -->		
+	<div id="slider">
+		<img src="images/carezza.jpg" data-src-2x="img/1@2x.jpg" alt="Slide 1" />
+		<img data-src="img/2.jpg" data-src-2x="img/2@2x.jpg" src="" alt="Slide 2" />
+		<a href="http://example.com"><img data-src="img/3.jpg" data-src-2x="img/3@2x.jpg" src="" alt="Slide 3" /></a>
+		<img data-src="img/4.jpg" data-src-2x="img/4@2x.jpg" src="" alt="Slide 4" />
+	</div>
+
 			<p style="text-align:justify;">Criado em 2009 na Universidade Federal de Uberlândia, o grupo se manteve inativo até o ano de 2016, quando o processo de internacionalização da cidade volta de forma expoente devido à implementação do “Conselho de Desenvolvimento Econômico de Uberlândia 2100” em 2015 e sua câmara técnica específica de Atração de Investimento e Cooperação Internacional. Sendo esta câmara técnica dividida em 4 eixos: negócios, governo, sociedade e academia, o GEUCI se inseriu indiretamente no último deles, realizando levantamentos de dados da própria UFU na área de mobilidades internacionais. Em 2018, o grupo se insere diretamente nesse processo, participando das reuniões e planejamentos.</p> 
 			<p style="text-align:justify;">Diante disso o grupo enxerga a necessidade de lidar com os demais setores da sociedade, abrangendo assim suas áreas de atuação e incorporando a mesma divisão da câmara técnica em sua organização interna ainda no mesmo ano. Como forma de oficializar suas ações para além da universidade, se torna parte do projeto de extensão denominado “Uberlândia no Contexto Internacional”. A partir de então, lida com objetivos como: mediar negócios internacionais da cidade, intensificar o fluxo de estudantes UFU-exterior e vice-versa, envolver a comunidade no processo de internacionalização e continuar atuando junto ao CODEN.</p> 
 
@@ -125,5 +115,13 @@
 		<p style="text-align:center; margin-bottom:12px;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
 	</footer>
 </div>
+
+	<script src="js/ideal-image-slider.js"></script>
+	<script src="js/iis-bullet-nav.js"></script>
+	<script>
+	var slider = new IdealImageSlider.Slider('#slider');
+	slider.addBulletNav();
+	slider.start();
+	</script>
 
 </body>
