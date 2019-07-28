@@ -4,15 +4,14 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
 	<link rel="shortcut icon" href="favicon.ico">
-	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 	<meta name="description" content="Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
 	<title>GEUCI</title>
 	
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
 	<script> <!-- Google Maps javaScript-->
 		function initialize(){
-			var myLatlng = new google.maps.LatLng(-18.910208, -48.269587);
-			var mapOptions = {zoom: 17,center: myLatlng}
+			var myLatlng = new google.maps.LatLng(-18.918291122680966, -48.257867399999995);
+			var mapOptions = {zoom: 16,center: myLatlng}
 			var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 			var marker = new google.maps.Marker({
 				position: myLatlng,
@@ -43,16 +42,9 @@
 
 <div class ="container">
 
-	<div class="langbar"> 
-		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flag_fr.png" alt="fr"/> </a> 
-		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flg_ar.png" alt="es"/></a> 
-		<a href="en/"> <img style="height:22px; margin-top:5px;"  src="images/flag_uk.png" alt="en_gb"/> </a> 
-		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flag_br.png" alt="pt_br"/> </a> 
-	</div>
-
 	<header>
 				<div>
-					<a href="#"><img class="header_logo" src="images/logo.png" alt="Logo"/></a>
+					<a href="index.html"><img class="header_logo" src="images/logo.png" alt="Logo"/></a>
 				</div>
 				<h4>Grupo de Extensão Uberlândia no Contexto Internacional</h4>
 	</header>
@@ -62,9 +54,19 @@
 	</div>
 	
 	<div class="content">
-	
+
 		<!-- menu bar -->
 		<div class="codrops-top"> 
+		   <span class="left">
+				<input type="checkbox" id="btnControl"/>
+				<label class="btn" for="btnControl">
+						<img style="max-height:40px; margin-top:5px;" src="images/translate.png" alt="lang-bar"/>					
+						<div class="dropdown-content2">
+							<a href="en/contact.html"> <div class="lang-entry"> <p> <img src="images/en2.png" align="middle" alt="EN:"/>English</p></div></a>
+							<div id="active"> <a href="contato.html"> <div class="lang-entry"> <p> <img src="images/pt2.png" align="middle" alt="PT:"/>Português</p></div></a></div>
+						</div>
+				</label>
+			</span>
 				
 				<span class="right">
 					<div class="dropdown">
@@ -83,8 +85,6 @@
 					
 					<a href="contato.html">Contato</a>
 					<a href="nosso-trabalho.html">Nosso Trabalho</a>
-					<!-- <a href="#" style="font-size:18px;"><strong>Uberlândia</strong></a> -->
-					<!-- <div style="float:right;"> <a href="#"> <img style="height:30px; margin-top:5px;" src="images/trl.png" alt="Logo"/> </a></div> -->
 				</span>
 					
 					<div class="clr"></div>
@@ -134,13 +134,13 @@
 				<p> &nbsp;&nbsp; Uberlândia - MG, Brasil</p>
 			</div>
 
-			<div  class="mapa">
+			<!-- <div  class="mapa"> -->
 				<div id="map-canvas"></div>
-			</div>
+			<!-- </div> -->
 
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-			<p><a href="#"><img id="uk" src="images/top.png" style=" height:32px; float: right;"  alt="back to top" /></a></p>
+			<p style="padding-bottom:30px;"><a href="#"><img id="uk" src="images/top.png" style=" height:32px; float: right;"  alt="back to top" /></a></p>
 
 		</div>
 		

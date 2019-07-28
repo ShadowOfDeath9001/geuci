@@ -17,12 +17,6 @@
 
 <div class ="container">
 
-	<div class="langbar"> 
-		<a href="fr"> <img style="height:22px; margin-top:5px;"  src="images/flag_fr.png" alt="fr"/> </a> 
-		<a href="es"> <img style="height:22px; margin-top:5px;"  src="images/flg_ar.png" alt="es"/></a> 
-		<a href="lang/en/our-work.html"> <img style="height:22px; margin-top:5px;"  src="images/flag_uk.png" alt="en_gb"/> </a> 
-		<a href="#"> <img style="height:22px; margin-top:5px;"  src="images/flag_br.png" alt="pt_br"/> </a> 
-	</div>
 	<header>
 				<div>
 					<img class="header_logo" src="images/logo.png" alt="Logo"/>
@@ -33,19 +27,42 @@
 	<div class="header_img"style=""> 
 		<img style="width:100%; max-height:275px; z-index: -2;" src="images/header.png"/>
 	</div>
+	
 	<div class="content" style="padding-bottom:25px;">
 	
 		<!-- menu bar -->
 		<div class="codrops-top"> 
-
+		   <span class="left">
+				<input type="checkbox" id="btnControl"/>
+				<label class="btn" for="btnControl">
+						<img style="max-height:40px; margin-top:5px;" src="images/translate.png" alt="lang-bar"/>					
+						<div class="dropdown-content2">
+							<a href="en/our-work.html"> <div class="lang-entry"> <p> <img src="images/en2.png" align="middle" alt="EN:"/>English</p></div></a>
+							<div id="active"> <a href="nosso-trabalho.html"> <div class="lang-entry"> <p> <img src="images/pt2.png" align="middle" alt="PT:"/>Português</p></div></a></div>
+						</div>
+				</label>
+			</span>
+				
 				<span class="right">
-					<a href="index.html"> Quem Somos</a>
-					<a href="contato.html" style="font-size:20px;">Contato</a>
-					<a href="nosso-trabalho.html" style="font-size:20px;">Nosso Trabalho</a>
-					<a href="uberlandia.html" style="font-size:20px;"><strong>Uberlândia</strong></a>
+					<div class="dropdown">
+						<a href="index.html">Quem Somos</a>
+					</div>
+					<div class="dropdown">
+						<a href="#">Eixos de Trabalho</a>
+						<div class="dropdown-content">
+							<a href="presidencia.html">Presidência</a>
+							<a href="academia.html">Academia</a>
+							<a href="governo.html">Governo</a>
+							<a href="sociedade.html">Sociedade</a>
+							<a href="negocios.html">Negócios</a>
+						</div>
+					</div>
+					
+					<a href="contato.html">Contato</a>
+					<a href="nosso-trabalho.html">Nosso Trabalho</a>
 				</span>
 					
-				<div class="clr"></div>
+					<div class="clr"></div>
 		</div>
 		
 		<br/>
