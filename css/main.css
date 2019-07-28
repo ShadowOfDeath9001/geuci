@@ -1,8 +1,9 @@
 @font-face{font-family:'BebasNeueRegular';src:url('../fonts/CGothic.ttf') format('truetype');}
 @font-face{font-family:'CobertRegular'; src:url('../fonts/Corbert-Regular.otf') format('truetype');}
-@font-face{font-family:'Geomanist'; src:url('../fonts/geomanist-regular-webfont.ttf') format('truetype');}
 @font-face{font-family:'Kanit';src:url('../fonts/Kanit-Regular.ttf') format('truetype');}
+@font-face{font-family:'BodoniXT';src:url('../fonts/FeFCrm27C.otf') format('truetype');}
 @font-face{font-family:'Zurich';src:url('../fonts/Zurich Light Extra Condensed BT.ttf') format('truetype');}
+
 
 html,body{margin:0;padding:0;}
 a:link    {text-decoration:none;}
@@ -52,7 +53,7 @@ h4 {
 		position:fixed;width:100%;height:100%;top:0px;left:0px;z-index:0;
 		content:'';background:transparent url(pattern.png) repeat top left;
 		z-index:-1;
-		-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1))); // fades image;
+		-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1))); /*fades image*/
 	}
 	
 	
@@ -73,7 +74,7 @@ h4 {
 				font-weight:450;
 	}
 	
-	/* Simple Menu Start*/
+/* Simple Menu Start*/
 	.codrops-top{font-family:'BebasNeueRegular',Arial, sans-serif;font-size:16px;line-height:50px;background:#FDFCEC;opacity:0.9;z-index:9999;position:relative;-moz-box-shadow:1px 0px 2px #ADAC99;-webkit-box-shadow:1px 0px 2px #ADAC99;box-shadow:1px 0px 2px #ADAC99;}
 	.codrops-top a{padding:0px 10px;letter-spacing:1px;color:#A50606;display:block;float:left;}
 	.codrops-top a:hover{/* color:#BE9BC9; */}
@@ -81,40 +82,76 @@ h4 {
 	.codrops-top span.right a{float:none;display:inline;}
 	.codrops-top span.right a:hover{font-weight:bold;}     /* sets weight of <span class="right"> links to bold on hover */
 	.codrops-top span.right a:hover strong{color:#0c1b2b;} /* sets colour of <strong> links inside <span class="right"> on hover */
-	.codrops-top span.left{font-family:'Kanit', Arial, sans-serif; font-size:35px;}
-	.codrops-top span.left a{display:inline;}
-	.codrops-top span.left a:hover{color:#A50606;} /* sets colour of <span class="left"> links on hover */
-	/* Simple Menu End*/
+	
+	.codrops-top span.left{font-family:BodoniXT; font-size:20px;}
+	.codrops-top span.left a{display:inline; color:#111111;}
+	.codrops-top span.left a:hover{color:#111111;} /* sets colour of <span class="left"> links on hover */
+/* Simple Menu End*/
 
-	/* Hover Menu START */
+/* Hover Menu START */
 	.dropdown {float: left; overflow: hidden;}
 	.dropdown .dropbtn {font-size:16px; border:none; outline:none; color:white; padding:14px 16px; background-color:inherit; font:inherit; margin:0;}
 	.dropdown-content {margin-right: auto; margin-left: auto; display:none; position:absolute; background-color:#f9f9f9; width:100%; max-width:150px; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1;}
 	.dropdown-content a {float:none; color:black; text-decoration:none; display:block; text-align:left;}
-	.dropdown-content a:hover {background-color:#ddd;}
+	.dropdown-content a:hover {text-decoration:underline;}
 	.dropdown:hover .dropdown-content {display: block;}
-	/* Hover Menu END */
+/* Hover Menu END */
+	
+/* CLICK Menu START */
+	.dropdown-content2 {text-align:left; margin-right: auto; margin-left: auto; margin-top:10px; display:none; position:absolute; background-color:#f9f9f9; width:100%; max-width:165px; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1;}
+	.dropdown-content2 a {float:none; color:black; text-decoration:none; display:block; text-align:left;}
+	.dropdown-content2 a .lang-entry:hover {background-color:#ddd;}
+	#btnControl {
+		display: none;
+	}
+	#btnControl:checked + label .dropdown-content2 {
+		display: block;
+	}
+	.btn{
+		cursor: pointer;
+		float: left; 
+		overflow: hidden;
+		padding-left:10px;
+	}
+	
+	.lang-entry{
+		width: 100%;   
+		float: left;
+		height:50px;
+/* 		border-style: solid;
+		border-width:1px; */
+		margin-top:-50px;
+	}
+	
+	#active .lang-entry {
+		font-weight: 900;
+		/* text-decoration:underline; */
+	}
+	
+	.lang-entry > p{
+		
+		margin-top:0px;
+		font-size:20px;
+		text-align:left;
+		font-family:'CobertRegular';
+	}
+	
+	.lang-entry > p > img{
+		
+		width:45px; 
+		height:40px; 
+		margin-top:-16px; 	
+	}
+/* CLICK Menu END */
 
+	
 	.content{
 	
-		/*background-color:#ffffff;*/
 		background: rgba(255,255,255,0.9);
 	/* 	margin-left:150px;
 		margin-right:100px; */
 		min-height:350px;
 		overflow:hidden;
-	}
-	
-	hr.vertical {
-	
-		height:350px; /*you might need some positioning for this to work, see other questions about 100% height*/
-		width:1px;
-		border: 0;
-		background: black;
-		background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#000), to(transparent));
-		float:left;
-		margin-top:50px;
-		margin-bottom:50px;
 	}
 	
 	.imgbox{
@@ -136,7 +173,6 @@ h4 {
 		margin-top:15px;
 		font-family: 'Lato', sans-serif; 
 		font-size:17px;
-		/* font-family:'BebasNeueRegular'; */
 	}
 	.box1 > p{text-align: left;}
 	.box1 > h3{font-family:'BebasNeueRegular';}
@@ -147,39 +183,17 @@ h4 {
 		  right: 0;
 		  bottom: 0;
 		  left: 0;
-		 /* padding: 1rem;*/
 		  padding-top:4px;
 		  padding-bottom: 4px;
 		  padding-left:10px;
 		  padding-right:10px;
 		  max-height:75px;
-		 /*  margin-top:50px; */
-		  background-color: #9da3ad;
+		  background-color: #d6dae0;
 		  text-align: center;
 		  font-family:'BebasNeueRegular';
 		  font-size:10px;
 		  line-height: 0.7em;
-	}
-
-	.langbar{
-	
-		  position: relative;
-		  z-index: 1;
-		  right: 1;
-		  bottom: 1;
-		  left: 1;
-		  margin-bottom:-50px;
-		 /* padding: 1rem;*/
-		  padding-top:4px;
-		  padding-bottom: 4px;
-		  padding-left:25px;
-		  padding-right:25px;
-		  max-height:50px;
-		  
-		  text-align: left;
-		  font-family:'BebasNeueRegular';
-		  font-size:10px;
-		  line-height: 0.7em;
+		  -moz-box-shadow:1px 0px 2px #cbcab4;-webkit-box-shadow:1px 0px 2px #cbcab4;box-shadow:1px 0px 2px #cbcab4;
 	}
 	
 	.servicebox{
@@ -210,36 +224,13 @@ h4 {
 		text-align: left; 
 	}
 	
-	
-	#clipart{
-		
-		float:left;
-		margin-top:-90px;
-		width:90px;
-		height:85px;
-	}
-	
-	#clipart2{
-		
-		float:left;
-		margin-top:-65px; 
-		margin-left: 20px; 
-		width:65px; 
-		height:50px;
-	}
-	
 	#icons_div{
 		
-		/* float:left;  */
-		/* width: 100%;   */
 		padding-left:5px;
-		/* display: block;  */
 		float: left;
-		/* margin:auto; */
 /* 		border-style: solid;
 		border-width:1px; */
-		min-width:38%;
-		
+		min-width:38%;	
 	}
 	
 	#spec_icon{
@@ -251,9 +242,7 @@ h4 {
 		
 		width:40px; 
 		height:40px; 
-		/* float:left;  */
 		margin-top:-12px; 
-		/* margin-left:15px; */
 	}
 	
 	#logo{
@@ -327,30 +316,11 @@ h4 {
 		margin-left: 10px;
 		margin-right: 5px;
 	}
-	.mapa{
-		margin-left:10px; 
-		margin-right:25px; 
-		padding-right:20px;
-		margin-top: 20px;
-		margin-bottom: 10px;
-		float: left; 
-		position: relative; 
-		background: rgba(255,255,255,0.7);
-		border-radius: 4px;
-		text-align:left;
-		max-width:45%;
-	}
 
 /* --------------------- */
 	
 @media screen and (max-width: 1000px) {
-	
-	.content{
 
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-bottom: 10px;
-	}
 	.codrops-top span.right{margin-right:10px;}
 	
 	.container > header h2, p.info{
@@ -359,12 +329,21 @@ h4 {
 				margin-right:0px;
 	}
 	
+/* -------- MAP -------- */
 	.col{max-width:100%;}
+/* -------- --- -------- */
 
-	
 	#logo{
 		
 		margin-left:0px;
+	}
+	
+	.box1{
+
+			margin-left:55px; 
+			margin-right:85px;
+			margin-bottom:40px;
+			margin-top:15px;
 	}
 
 /* ------- "Nosso Trabalho" -------- */
@@ -379,6 +358,14 @@ h4 {
 }
 
 @media screen and (max-width:670px){
+
+		.box1{
+
+				margin-left:35px; 
+				margin-right:65px;
+				margin-bottom:40px;
+				margin-top:15px;
+		}
 	
 	.container > header{text-align: left;}
 	
@@ -389,15 +376,6 @@ h4 {
 	#arrow{
 		margin-left:115px;
 		margin-right:100px;
-
-	}
-	#brazil{
-			
-		margin-left:0px;
-	}
-	#uk{
-			
-		margin-top:0px;
 
 	}
 	
@@ -420,6 +398,13 @@ h4 {
 }
 	
 @media screen and (max-width:600px){
+		.box1{
+
+				margin-left:25px; 
+				margin-right:55px;
+				margin-bottom:40px;
+				margin-top:15px;
+		}
 	
 	.header_img{
 		margin-top: -230px;
@@ -437,25 +422,8 @@ h4 {
 		margin-right:100px;
 
 	}
-	#brazil{
-			
-			margin-left:0px;
-	}
-	#uk{
-			
-		margin-top:0px;
-
-	}
 	#email{
 		font-size:12px;
-	}
-	
-	#clipart2{
-		float:left;
-		margin-top:-65px; 
-		margin-left:0px; 
-		width:65px; 
-		height:50px;
 	}
 
 }
@@ -470,25 +438,10 @@ h4 {
 		}
 		.codrops-top span.right{margin-right:65px;}
 
-		#brazil{
-			
-			margin-left:0px;
-		}
-		#uk{
-			
-			margin-top:0px;
-
-		}
 		#arrow{
 			margin-left:10px;
 			margin-right:10px;
 
-		}
-		#clipart{
-			width:76px;
-		}
-		#clipart2{
-			float:right;
 		}
 
 }
