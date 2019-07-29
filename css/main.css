@@ -318,6 +318,17 @@ h4 {
 	}
 
 /* --------------------- */
+
+
+/* -------- Parceiros -------- */
+
+#wide{
+	float:left; padding:15px;
+}
+#square{
+	float:left; padding:5px; padding-left:50px; padding-right:50px;
+}
+/* --------------------------- */
 	
 @media screen and (max-width: 1000px) {
 
@@ -443,6 +454,16 @@ h4 {
 			margin-right:10px;
 
 		}
+		
+/* -------- Parceiros -------- */
+
+#wide{
+	float:left; padding:10px;
+}
+#square{
+	float:left; padding:5px; padding-left:50px; padding-right:50px;
+}
+/* --------------------------- */
 
 }
 
