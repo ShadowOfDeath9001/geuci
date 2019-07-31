@@ -9,8 +9,8 @@
 	<meta name="description" content="Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
 	<title>GEUCI</title>
 	<link rel="stylesheet" type="text/css" href="../css/main.css" />
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
-	<script> <!-- Google Maps javaScript-->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
+	<script type="text/javascript"> <!-- Google Maps javaScript-->
 		function initialize(){
 			var myLatlng = new google.maps.LatLng(-18.918291122680966, -48.257867399999995);
 			var mapOptions = {zoom: 16,center: myLatlng}
@@ -23,7 +23,7 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
-	<style>
+	<style type="text/css">
 		#map-canvas{
 			min-width:430px;
 			min-height:290px;
@@ -59,6 +59,7 @@
 
 		<!-- menu bar -->
 		<div class="codrops-top"> 
+		   <span class="left">
 				<input type="checkbox" id="btnControl"/>
 				<label class="btn" for="btnControl">
 						<img style="max-height:40px; margin-top:5px;" src="images/translate.png" alt="lang-bar"/>					
@@ -97,7 +98,7 @@
 			
 			<div style="margin-bottom:-21px;">
 				<p style="text-align:left;"> We are available for contact through the following means: </p>
-				</br>				
+				<br/>				
 				<div class="icons_div"> <p class="email" style="text-align:left;" > <img class="icon_image" src="../images/face.png" align="middle" alt="Facebook:"/> &nbsp; <a href="http://facebook.com/GeuciUDI">/GeuciUDI</a></p></div>
 			</div>
 			<br/>
