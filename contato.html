@@ -3,12 +3,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
-	<link rel="shortcut icon" href="favicon.ico">
-	<meta name="description" content="Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="alternate" hreflang="pt-br" href="http://geuci.org/contato.html" />
+	<link rel="alternate" hreflang="en" href="http://geuci.org/en/contact.html" />
+	<meta name="description" content="GEUCI - Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
 	<title>GEUCI</title>
-	
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
-	<script> <!-- Google Maps javaScript-->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWt8MPRYrKHvgHASVGYVzTNxWvDnxgdQ&callback=initMap"></script> <!--Google Maps script-->
+	<script type="text/javascript"> <!-- Google Maps javaScript-->
 		function initialize(){
 			var myLatlng = new google.maps.LatLng(-18.918291122680966, -48.257867399999995);
 			var mapOptions = {zoom: 16,center: myLatlng}
@@ -21,7 +23,7 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
-	<style>
+	<style type="text/css">
 		#map-canvas{
 			min-width:430px;
 			min-height:290px;
@@ -42,14 +44,14 @@
 
 <div class ="container">
 
-	<header>
+	<div id="header">
 				<div>
 					<a href="index.html"><img class="header_logo" src="images/logo.png" alt="Logo"/></a>
 				</div>
 				<h4>Grupo de Extensão Uberlândia no Contexto Internacional</h4>
-	</header>
+	</div>
 	
-	<div class="header_img"style=""> 
+	<div class="header_img"> 
 		<img style="width:100%; max-height:275px; z-index: -2;" src="images/header.png"/>
 	</div>
 	
@@ -61,18 +63,18 @@
 				<input type="checkbox" id="btnControl"/>
 				<label class="btn" for="btnControl">
 						<img style="max-height:40px; margin-top:5px;" src="images/translate.png" alt="lang-bar"/>					
-						<div class="dropdown-content2">
-							<a href="en/contact.html"> <div class="lang-entry"> <p> <img src="images/en2.png" align="middle" alt="EN:"/>English</p></div></a>
-							<div id="active"> <a href="contato.html"> <div class="lang-entry"> <p> <img src="images/pt2.png" align="middle" alt="PT:"/>Português</p></div></a></div>
-						</div>
+						<object class="dropdown-content2">
+							<a href="en/contact.html"> <object class="lang-entry"> <p> <img src="images/en2.png" align="middle" alt="EN:"/>English</p></object></a>
+							<div id="active"> <a href="contato.html"> <object class="lang-entry"> <p> <img src="images/pt2.png" align="middle" alt="PT:"/>Português</p></object></a></div>
+						</object>
 				</label>
 			</span>
 				
 				<span class="right">
-					<div class="dropdown">
+					<object class="dropdown">
 						<a href="index.html">Quem Somos</a>
-					</div>
-					<div class="dropdown">
+					</object>
+					<object class="dropdown">
 						<a href="#">Eixos de Trabalho</a>
 						<div class="dropdown-content">
 							<a href="presidencia.html">Presidência</a>
@@ -81,7 +83,7 @@
 							<a href="sociedade.html">Sociedade</a>
 							<a href="negocios.html">Negócios</a>
 						</div>
-					</div>
+					</object>
 					
 					<a href="contato.html">Contato</a>
 					<a href="nosso-trabalho.html">Nosso Trabalho</a>
@@ -91,9 +93,6 @@
 		</div>
 		
 		<br/>
-		
-		
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		
 		<div class="box1" style="max-height:250px; width:100%;">
 			
@@ -144,16 +143,15 @@
 
 		</div>
 		
-		
-	
 	</div>
 	
-	<footer class="footer">
+	<div class="footer">
 		<p style="text-align:center;">GEUCI,  &nbsp; &copy; 2019</p>
 		<!-- <p>CNPJ: 0001-xxx.xxx.xxx.000</p> -->
 		<p> <a href="https://www.freepik.es/fotos-vectores-gratis/logo">Vector de logo creado por saragnzalez</a> </p> 
 		<p style="text-align:center; margin-bottom:12px;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
-	</footer>
+	</div>
 </div>
 
 </body>
+</html>
