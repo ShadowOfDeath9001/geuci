@@ -225,7 +225,7 @@ h4 {
 		text-align: left; 
 	}
 	
-	#icons_div{
+	.icons_div{
 		
 		padding-left:5px;
 		float: left;
@@ -239,7 +239,7 @@ h4 {
 		float:none;
 	}
 
-	#icon_image{
+	.icon_image{
 		
 		width:40px; 
 		height:40px; 
@@ -434,7 +434,7 @@ h4 {
 		margin-right:100px;
 
 	}
-	#email{
+	.email{
 		font-size:12px;
 	}
 
