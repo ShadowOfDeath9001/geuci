@@ -3,19 +3,22 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
-	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="shortcut icon" href="../favicon.ico"/>
+	<link rel="alternate" hreflang="pt-br" href="http://geuci.org/index.html" />
+	<link rel="alternate" hreflang="en" href="http://geuci.org/en/index.html" />
 	<meta name="description" content="GEUCI - Grupo de Extensão Uberlândia no Contexto Internacional - Working Towards the Internationalisation of Uberlândia" />
 	<title>GEUCI</title>
-	<link rel="stylesheet" href="../css/ideal-image-slider.css">
-	<link rel="stylesheet" href="../css/normalize.css">
-	<link rel="stylesheet" href="../css/default.css">
-	<style media="screen">
+	<style type="text/css">
 		#slider {
 			max-width: 900px;
 			max-height: 300px;
 			margin: 50px auto;
 		}
 	</style>
+	<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	<link rel="stylesheet" type="text/css" href="../css/ideal-image-slider.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/default.css"/>
 
 </head>
 
@@ -31,7 +34,7 @@
 	</div>
 	
 	<div class="header_img"> 
-		<img style="width:100%; max-height:275px; z-index: -2;" src="../images/header.png"/>
+		<img style="width:100%; max-height:275px; z-index: -2;" src="../images/header.png" alt="Background"/>
 	</div>
 	
 	<div class="content" style="padding-bottom:35px;">
@@ -42,18 +45,18 @@
 				<input type="checkbox" id="btnControl"/>
 				<label class="btn" for="btnControl">
 						<img style="max-height:40px; margin-top:5px;" src="../images/translate.png" alt="lang-bar"/>					
-						<div class="dropdown-content2">
-							<div id="active"><a href="index.html"> <div class="lang-entry"> <p> <img src="../images/en2.png" align="middle" alt="EN:"/>English</p></div></a></div>
-							<a href="../index.html"> <div class="lang-entry"> <p> <img src="../images/pt2.png" align="middle" alt="PT:"/>Português</p></div></a>
-						</div>
+						<object class="dropdown-content2">
+							<div id="active"><a href="index.html"> <object class="lang-entry"> <p> <img src="../images/en2.png" align="middle" alt="EN:"/>English</p></object></a></div>
+							<a href="../index.html"> <object class="lang-entry"> <p> <img src="../images/pt2.png" align="middle" alt="PT:"/>Português</p></object></a>
+						</object>
 				</label>
 			</span>
 				
 				<span class="right">
-					<div class="dropdown">
+					<object class="dropdown">
 						<a href="index.html">About Us</a>
-					</div>
-					<div class="dropdown">
+					</object>
+					<object class="dropdown">
 						<a href="#">Our Work Axis</a>
 						<div class="dropdown-content">
 							<a href="presidency.html">Presidency</a>
@@ -62,7 +65,7 @@
 							<a href="society.html">Society</a>
 							<a href="business.html">Business</a>
 						</div>
-					</div>
+					</object>
 					
 					<a href="contact.html">Contact</a>
 					<a href="our-work.html">Our Work</a>
@@ -73,9 +76,6 @@
 		
 		<br/>
 		
-		
-		<link rel="stylesheet" type="text/css" href="../css/main.css" />
-		 
 		<div class="box1" style="text-align:justify;">
 		
 			<div id="slider">
@@ -109,18 +109,18 @@
 		</div>
 	</div>
 	
-	<footer class="footer">
+	<div class="footer">
 		<p style="text-align:center;">GEUCI,  &nbsp; &copy; 2019</p>
 		<p style="text-align:center; margin-bottom:12px;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
-	</footer>
+	</div>
 </div>
 
-	<script src="../js/ideal-image-slider.js"></script>
-	<script src="../js/iis-bullet-nav.js"></script>
-	<script>
-	var slider = new IdealImageSlider.Slider('#slider');
-	slider.addBulletNav();
-	slider.start();
+	<script type="text/javascript" src="../js/ideal-image-slider.js"></script>
+	<script type="text/javascript" src="../js/iis-bullet-nav.js"></script>
+	<script type="text/javascript">
+		var slider = new IdealImageSlider.Slider('#slider');
+		slider.addBulletNav();
+		slider.start();
 	</script>
 
 </body></html>
