@@ -8,7 +8,7 @@
 	<link rel="alternate" hreflang="en" href="http://geuci.org/en/index.html" />
 	<meta name="description" content="GEUCI - Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
 	<title>GEUCI</title>
-	<style>
+	<style type="text/css">
 		#slider {
 			max-width: 900px;
 			max-height: 300px;
@@ -23,12 +23,12 @@
 
 <div class ="container">
 
-	<header>
+	<div id="header">
 				<div>
 					<a href="index.html"><img class="header_logo" src="images/logo.png" alt="Logo"/></a>
 				</div>
 				<h4>Grupo de Extensão Uberlândia no Contexto Internacional</h4>
-	</header>
+	</div>
 	
 	<div class="header_img"style=""> 
 		<img style="width:100%; max-height:275px; z-index: -2;" src="images/header.png" alt="Panorama"/>
@@ -43,8 +43,8 @@
 				<label class="btn" for="btnControl">
 						<img style="max-height:40px; margin-top:5px;" src="images/translate.png" alt="lang-bar"/>					
 						<object class="dropdown-content2">
-							<a href="en/index.html"> <div class="lang-entry"> <p> <img src="images/en2.png" align="middle" alt="EN:"/>English</p></div></a>
-							<div id="active"> <a href="index.html"> <div class="lang-entry"> <p> <img src="images/pt2.png" align="middle" alt="PT:"/>Português</p></div></a></div>
+							<a href="en/index.html"> <object class="lang-entry"> <p> <img src="images/en2.png" align="middle" alt="EN:"/>English</p></object></a>
+							<div id="active"> <a href="index.html"> <object class="lang-entry"> <p> <img src="images/pt2.png" align="middle" alt="PT:"/>Português</p></object></a></div>
 						</object>
 				</label>
 			</span>
@@ -119,18 +119,18 @@
 		
 	</div>
 	
-	<footer class="footer">
+	<div class="footer">
 		<p style="text-align:center;">GEUCI,  &nbsp; &copy; 2019</p>
 		<p style="text-align:center; margin-bottom:12px;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
-	</footer>
+	</div>
 </div>
 
-	<script src="js/ideal-image-slider.js"></script>
-	<script src="js/iis-bullet-nav.js"></script>
-	<script>
-	var slider = new IdealImageSlider.Slider('#slider');
-	slider.addBulletNav();
-	slider.start();
+	<script type="text/javascript" src="js/ideal-image-slider.js"></script>
+	<script type="text/javascript" src="js/iis-bullet-nav.js"></script>
+	<script type="text/javascript">
+		var slider = new IdealImageSlider.Slider('#slider');
+		slider.addBulletNav();
+		slider.start();
 	</script>
 
 </body>
