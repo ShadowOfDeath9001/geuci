@@ -73,7 +73,7 @@ h4 {
 	}
 	
 /* Simple Menu Start*/
-	.codrops-top{font-family:'BebasNeueRegular',Arial, sans-serif;font-size:16px;line-height:50px;background:#FDFCEC;opacity:0.9;z-index:9999;position:relative;-moz-box-shadow:1px 0px 2px #ADAC99;-webkit-box-shadow:1px 0px 2px #ADAC99;box-shadow:1px 0px 2px #ADAC99;}
+	.codrops-top{font-family:'BebasNeueRegular',Arial, sans-serif;font-size:16px;line-height:50px;background:#FDFCEC;opacity:1.0;z-index:9999;position:relative;-moz-box-shadow:1px 0px 2px #ADAC99;-webkit-box-shadow:1px 0px 2px #ADAC99;box-shadow:1px 0px 2px #ADAC99;}
 	.codrops-top a{padding:0px 10px;letter-spacing:1px;color:#A50606;display:block;float:left;}
 	.codrops-top a:hover{/* color:#BE9BC9; */}
 	.codrops-top span.right{float:right;text-transform:uppercase; margin-right:100px;}
