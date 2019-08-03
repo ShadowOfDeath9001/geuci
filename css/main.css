@@ -36,14 +36,6 @@ h3:after {
   margin-right: -50%;
 }
 
-h4 {
-  /* overflow: hidden; */
-  /* text-align: center; */
-  font-family: 'Zurich';
-  font-size:35px;
-  color: white;
-  margin-bottom: 10px;
-}
 	.page{
 	
 		background-repeat: no-repeat;
@@ -76,9 +68,9 @@ h4 {
 	.codrops-top{font-family:'BebasNeueRegular',Arial, sans-serif;font-size:16px;line-height:50px;background:#FDFCEC;opacity:1.0;z-index:9999;position:relative;-moz-box-shadow:1px 0px 2px #ADAC99;-webkit-box-shadow:1px 0px 2px #ADAC99;box-shadow:1px 0px 2px #ADAC99;}
 	.codrops-top a{padding:0px 10px;letter-spacing:1px;color:#A50606;display:block;float:left;}
 	.codrops-top a:hover{/* color:#BE9BC9; */}
-	.codrops-top span.right{float:right;text-transform:uppercase; margin-right:100px;}
+	.codrops-top span.right{float:right;text-transform:uppercase; margin-right:100px; font-weight:bold;}
 	.codrops-top span.right a{float:none;display:inline;}
-	.codrops-top span.right a:hover{font-weight:bold;}     /* sets weight of <span class="right"> links to bold on hover */
+	.codrops-top span.right a:hover{font-weight:bold; text-shadow: 1px 1px 1px #99989f;}     /* sets weight of <span class="right"> links to bold on hover */
 	.codrops-top span.right a:hover strong{color:#0c1b2b;} /* sets colour of <strong> links inside <span class="right"> on hover */
 	
 	.codrops-top span.left{font-family:BodoniXT; font-size:20px;}
@@ -170,6 +162,7 @@ h4 {
 		margin-bottom:0px;
 		margin-top:15px;
 		font-family: 'Lato', sans-serif; 
+		font-family: 'Georgia';
 		font-size:17px;
 	}
 	.box1 > p{text-align: left;}
@@ -253,7 +246,15 @@ h4 {
 		margin-top: -270px; position: relative; z-index: -2;
 	}
 	.header_logo{
-		height:250px; margin-top: -50px; margin-bottom: -75px;
+		height:250px; margin-top: -50px; margin-bottom: -75px; padding-top:35px;
+	}
+	h4 {
+	  /* overflow: hidden; */
+	  /* text-align: center; */
+	  font-family: 'Zurich';
+	  font-size:35px;
+	  color: white;
+	  margin-bottom: 0px;
 	}
 /* --------------------------------- */
 
@@ -265,10 +266,9 @@ h4 {
 		margin-right:160px;
 		margin-bottom:0px;
 		margin-top:15px;
-		font-family:'BebasNeueRegular';
+		/* font-family:'BebasNeueRegular'; */
 		border-style: solid;
-		border-width:1px;
-		font-family: 'Lato', sans-serif; 
+		border-width:1px;		
 	}
 	
 	.box2 .row{
@@ -318,15 +318,15 @@ h4 {
 /* --------------------- */
 
 
-/* -------- Parceiros -------- */
 
-.wide{
-	float:left; padding:15px;
+.profile{
+	
+	font-family:'BebasNeueRegular';
 }
-.square{
-	float:left; padding:5px; padding-left:50px; padding-right:50px;
-}
-/* --------------------------- */
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 	
 @media screen and (max-width: 1000px) {
 
@@ -403,6 +403,12 @@ h4 {
 	}
 
 /* --------------------------------- */
+	.header_logo{
+		height:250px; margin-top: -100px; margin-bottom: -75px;
+	}
+	h4 {
+	  margin-bottom: 30px;
+	}
 
 }
 
@@ -434,7 +440,13 @@ h4 {
 	.email{
 		font-size:12px;
 	}
-
+	
+	.header_logo{
+		height:250px; margin-top: -100px; margin-bottom: -75px;
+	}
+	h4 {
+	  margin-bottom: 30px;
+	}
 }
 	
 @media screen and (max-width:500px){
@@ -462,6 +474,13 @@ h4 {
 	float:left; padding:5px; padding-left:50px; padding-right:50px;
 }
 /* --------------------------- */
+
+	.header_logo{
+		height:250px; margin-top: -100px; margin-bottom: -75px;
+	}
+	h4 {
+	  margin-bottom: 30px;
+	}
 
 }
 
