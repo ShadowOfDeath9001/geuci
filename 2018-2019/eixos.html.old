@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
+	<link rel="shortcut icon" href="../favicon.ico"/>
+	<link rel="alternate" hreflang="pt-br" href="https://geuci.org/2018-2019/eixos.html" />
+	<link rel="alternate" hreflang="en" href="https://geuci.org/en/axes.html" />
+	<meta name="description" content="Grupo de Extensão Uberlândia no Contexto Internacional - Auxiliando na Promoção da Internacionalização de Uberlândia" />
+	<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	<title>GEUCI - EIXOS </title>
+	
+	<style>
+	
+		.no{
+			
+			cursor: pointer;
+			background-color: transparent;
+			border: transparent;
+			padding-top:6px;
+			padding-bottom:6px; 
+		}
+	
+	</style>
+</head>
+
+<body background="" class="page">
+
+<div class ="container">
+
+	<div id="header">
+				<div>
+					<a href="../index.html"><img class="header_logo" src="../images/logo.png" alt="Logo"/></a>
+				</div>
+				<h4>&nbsp;</h4>
+	</div>
+	
+	<div class="header_img"> 
+		<img style="width:100%; max-height:275px; z-index: -2;" src="../images/header.png" alt="Panorama"/>
+	</div>
+	
+	<div class="content" style="padding-bottom:45px;">
+	
+		<!-- menu bar -->
+		<div class="codrops-top"> 
+		   <span class="left">
+				<input type="checkbox" id="btnControl"/>
+				<label class="btn" for="btnControl">
+						<img style="max-height:40px; margin-top:5px;" src="../images/translate.png" alt="lang-bar"/>					
+						<object class="dropdown-content2">
+							<a href="../en/2018-2019/axes.html"> <object class="lang-entry"> <p> <img src="../images/en2.png" align="middle" alt="EN:"/>English</p></object></a>
+							<div id="active"> <a href="eixos.html"> <object class="lang-entry"> <p> <img src="../images/pt2.png" align="middle" alt="PT:"/>Português</p></object></a></div>
+						</object>
+				</label>
+			</span>
+				
+				<br class="line-break"/>
+				<span class="right">
+					<object class="dropdown">
+						<a href="../index.html">Quem Somos</a>
+					</object>
+					<br class="line-break"/>
+					<object class="dropdown">
+						<a href="../eixos.html">Eixos de Trabalho</a>
+					</object>
+					<br class="line-break"/>
+					<a href="../contato.html">Contato</a>
+					<br class="line-break"/>
+					<a href="../nosso-trabalho.html">Nosso Trabalho</a>
+				</span>
+					
+					<div class="clr"></div>
+		</div>
+		
+		<br/>
+		
+		<div class="box1">
+
+		<h3 style="font-size: 26px; font-family:'BebasNeueRegular';"> Gestão 2018-2019) </h3>
+<!-- 		<p style="font-size: 16px; font-family:'BebasNeueRegular'; font-weight: bold; text-decoration:underline; "> <a href="">< Gestão  (2018 - 2019)</a></p>
+ -->		</br>
+	
+			
+			<button class="no" style="max-width:30%;  "> <a href="presidencia.html"> <img style="border-radius: 15px 15px 15px 15px; max-width:100%; max-height:280px; " src="ico_pres.jpg" alt="background" /> </a> </button>
+			<button class="no" style="max-width:30%;  "> <a href="academia.html"> <img style="border-radius: 15px 15px 15px 15px; max-width:100%; max-height:280px; " src="ico_acad.jpg" alt="background" /> </a> </button>
+			<button class="no" style="max-width:30%;  "> <a href="governo.html"> <img style="border-radius: 15px 15px 15px 15px; max-width:100%; max-height:280px; " src="ico_gov.jpg" alt="background" /> </a> </button>
+			<button class="no" style="max-width:30%;  "> <a href="sociedade.html"> <img style="border-radius: 15px 15px 15px 15px; max-width:100%; max-height:280px; " src="ico_soc.jpg" alt="background" /> </a> </button>
+			<button class="no" style="max-width:30%;  "> <a href="negocios.html"> <img style="border-radius: 15px 15px 15px 15px; max-width:100%; max-height:280px; " src="ico_neg.jpg" alt="background" /> </a> </button>
+
+		</div>
+	
+	</div>
+	
+	<div class="footer">
+		<p style="text-align:center;">GEUCI,  &nbsp; &copy; 2019</p>
+		<p style="text-align:center;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
+		<p style="text-align:center; "> <a href="sitemap.html"> Sitemap </a> </p>	
+		<p style="text-align:right; margin-top:-32px;"> <a href="https://validator.w3.org/check?uri=referer"><img src="https://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" style="max-width:50px;" /></a> </p>
+	</div>
+</div>
+</body></html>
