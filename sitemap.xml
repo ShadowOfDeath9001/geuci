@@ -9,88 +9,58 @@
 
 <url>
   <loc>https://geuci.org/</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://geuci.org/index.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://geuci.org/en/index.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://geuci.org/presidencia.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://geuci.org/academia.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://geuci.org/governo.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://geuci.org/sociedade.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://geuci.org/negocios.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <loc>https://geuci.org/eixos.html</loc>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://geuci.org/contato.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://geuci.org/nosso-trabalho.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://geuci.org/en/presidency.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://geuci.org/en/academy.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://geuci.org/en/government.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://geuci.org/en/society.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://geuci.org/en/business.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <loc>https://geuci.org/en/axes.html</loc>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://geuci.org/en/contact.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://geuci.org/en/our-work.html</loc>
-  <lastmod>2019-08-02T18:07:23+00:00</lastmod>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://geuci.org/2018-2019/eixos.html</loc>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://geuci.org/en/axes_2018-2019.html</loc>
+  <lastmod>2019-09-25T16:55:11+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
